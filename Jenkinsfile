@@ -29,7 +29,7 @@ pipeline {
             steps {
                 sh 'ls -l ABC.exe'
                 sh "echo deploying $APP to ${params.ENV}"
-                sh ' echo finished '
+                sh ' echo feature1 finished '
             }
         }
     }
