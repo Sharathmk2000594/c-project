@@ -6,7 +6,7 @@ pipeline {
     parameters {
         choice(name: 'ENV', choices: ['qa','uat','prod'], description: 'WHERE TO DEPLOY')
     }
-    stages {
+    stagess {
         stage('BUILD') {
             steps {
                 sh 'make'
